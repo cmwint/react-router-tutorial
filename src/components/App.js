@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Home from './Home'
 import About from './About'
-import Topic from './Topic'
+import Topics from './Topics'
 import {
   BrowserRouter,
   Route,
@@ -21,7 +21,7 @@ class App extends Component {
           <hr/>
           <Route exact path='/' component={Home}/>
           <Route path='/about' component={About}/>
-          <Route path='/topics' component={Topic}/>
+          <Route path='/topics' component={Topics}/>
         </div>
       </BrowserRouter>
     );
